@@ -1,6 +1,5 @@
-import Nav from '@/components/nav';
+import Nav from './Navbar/Nav';
 import {useSession, signIn, signOut} from 'next-auth/react'
-import { ReactNode } from 'react';
 
 interface Props{
     children: React.ReactNode;
