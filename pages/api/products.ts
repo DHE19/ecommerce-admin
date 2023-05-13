@@ -9,7 +9,7 @@ export default async function handler(
   res: NextApiResponse
 ) {
   //working in the new db's version
-  const db = new Database(process.env.MONGODB_URI as string).getConnection();
+  Database.createConnection(process.env.MONGODB_URI as string);
 
   const {method}  = req;
 
