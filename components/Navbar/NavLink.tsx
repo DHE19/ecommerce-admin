@@ -8,7 +8,7 @@ interface IProps{
 
 const NavLink:React.FC<IProps> = ({path,classStyle,title, Icon}) => {
     return (
-        <Link href={`/${path}`} className={classStyle}>
+        <Link href={`${path}`} className={classStyle}>
             {Icon}
            <span> {title}</span>
         </Link>

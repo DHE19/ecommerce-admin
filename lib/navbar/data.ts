@@ -13,17 +13,17 @@ const navData:Array<INavInfo> = [
     },
     {
         name: "Orders",
-        path: "orders",
+        path: "/orders",
         icon: InboxIcon
     },
     {
         name: "Products",
-        path: "products",
+        path: "/products",
         icon: QueueListIcon
     },
     {
         name: "Settings",
-        path: "settings",
+        path: "/settings",
         icon: Cog6ToothIcon
     },
 ]
